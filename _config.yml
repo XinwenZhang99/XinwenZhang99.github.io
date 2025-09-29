@@ -13,13 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Xinwen Zhang"
-email: "ellenz@temple.edu"
-description: >-
-  PhD student at Temple University. Research in optimization for large-scale machine learning, federated learning, and stochastic optimization.
-url: "https://XinwenZhang99.github.io"  
-github_username: XinwenZhang99
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
