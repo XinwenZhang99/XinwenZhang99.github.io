@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Xinwen Zhang"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
   name: Ph.D. Student in Computer & Information Science, Temple University
 
 
@@ -34,17 +34,17 @@ education:
   # logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
     Ph.D. Student in Computer & Information Science <br/>
-    Advisor: Prof. Hongchang Gao
+    Advisor: Dr. Hongchang Gao
   date: Aug. 2022 - present
 - name: Tongji University
   # logo: /assets/images/badges/PKU_red.png
   position: B.S. in Mathematics
   date: Sep. 2017 - Jul. 2021
 
-# awards:
-# - name: Award Name 2
-#   date: 2024
-# - name: Award Name 1 
-#   date: 2021
+awards:
+- name: ICML Travel Award.
+  date: 2024
+- name: KDD Student Traval Award, NuerIPS Scholar Award, WiML Travel Award.
+  date: 2023
 # - name: A quick brown fox jumps over the lazy dog and runs away award
 #   date: 2021
