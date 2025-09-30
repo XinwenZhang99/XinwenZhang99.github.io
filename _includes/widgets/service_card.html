@@ -1,37 +1,40 @@
 {% if site.data.profile.service %}
-  <div class="card border-0 shadow-sm bg-white mt-4">
-    <div class="card-body p-4">
-      <h6>Service</h6>
-      <div class="row">
-        {% if site.data.profile.service.reviewer %}
-        <div class="col-md-6">
-          <h6>Reviewer</h6>
-          <ul class="list-unstyled">
-            {% for item in site.data.profile.service.reviewer %}
-            <li>
-              {% if item.conference %}
-                {{ item.conference }}{% if item.year %} ({{ item.year }}){% endif %}
-              {% elsif item.journal %}
-                {{ item.journal }}{% if item.year %} ({{ item.year }}){% endif %}
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-        {% if site.data.profile.service.teaching %}
-        <div class="col-md-6">
-          <h6>Teaching</h6>
-          <ul class="list-unstyled">
-            {% for t in site.data.profile.service.teaching %}
-            <li>
-              {{ t.course }}{% if t.term %} — {{ t.term }}{% endif %}
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
+<div class="card border-0 shadow-sm bg-white mt-4">
+  <div class="card-body p-4">
+    <h6><i class="fas fa-user-check"></i> Service</h6>
+    <div class="row mt-3">
+      
+      {% if site.data.profile.service.reviewer %}
+      <div class="col-md-6">
+        <h6><i class="fas fa-pen"></i> Reviewer</h6>
+        <ul class="list-unstyled ml-2 small">
+          {% for item in site.data.profile.service.reviewer %}
+          <li class="mb-1">
+            {% if item.conference %}
+              {{ item.conference }}{% if item.year %} ({{ item.year }}){% endif %}
+            {% elsif item.journal %}
+              {{ item.journal }}{% if item.year %} ({{ item.year }}){% endif %}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
+      {% endif %}
+      
+      {% if site.data.profile.service.teaching %}
+      <div class="col-md-6">
+        <h6><i class="fas fa-chalkboard-teacher"></i> Teaching</h6>
+        <ul class="list-unstyled ml-2 small">
+          {% for t in site.data.profile.service.teaching %}
+          <li class="mb-1">
+            {{ t.course }}{% if t.term %} — {{ t.term }}{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      
     </div>
   </div>
+</div>
 {% endif %}
