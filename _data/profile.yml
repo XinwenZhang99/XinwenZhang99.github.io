@@ -7,7 +7,7 @@ positions:
   name: Ph.D. Student in Computer & Information Science, Temple University
 
 
-email: "ellenz@email.com"
+email: "ellenz@temple.edu"
 # cv_link: link-to-your-cv-file
 gscholar: 6pZyGBQAAAAJ  # This is an example, replace it with your own Google Scholar ID
 # github: your_github_id
@@ -21,7 +21,7 @@ linkedin: xinwen-zhang-54a485249
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. student in Computer & Information Science at <a href="https://www.temple.edu/" target="_blank">Temple University</a>, advised by Dr. Hongchang Gao. 
+    I am a Ph.D. student in Computer & Information Science at <a href="https://www.temple.edu/" target="_blank">Temple University</a>, advised by <a href="https://hcgao.github.io/index.html" target="_blank">Dr. Hongchang Gao</a>. 
     My research focuses on optimization methods for large-scale machine learning, federated learning, and stochastic optimization.
   </p>
 
