@@ -21,11 +21,11 @@ navbar_title: Home
 {% endif %}
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
-<div class="text-right mt-3 mb-4">
-  <a href="{{ '/publications/' | relative_url }}">
-    <i class="fas fa-arrow-right"></i> Show all publications
-  </a>
-</div>
+{% 
+        include widgets/publication_card.html 
+        publications=pubs
+        title='<i class="fas fa-star"></i> Selected Publications'
+    %}
 
 {% if site.data.display.homepage.show_selected_publications %}
     {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
