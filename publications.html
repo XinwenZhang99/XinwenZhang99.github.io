@@ -4,6 +4,7 @@ title : Publications
 navbar_title: Publications
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
+permalink: /publications/
 ---
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
