@@ -53,10 +53,12 @@ awards:
 
 service:
   reviewer:
+    - conference: "ICLR, AISTATS"
+      year: 2026
+    - conference: "ICLR, AISTATS, AAAI, ICML, KDD, NeurIPS"
+      year: 2025
     - conference: "AAAI, ICML, NeurIPS"
       year: 2024
-    - conference: "AAAI, ICLR, ICML, KDD, NeurIPS"
-      year: 2025
     - journal: "Journal of Combinatorial Optimization"
   teaching:
     - course: "CIS3715 Principles of Data Science"
