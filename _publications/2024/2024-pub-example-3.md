@@ -12,7 +12,7 @@ abstract: >-
   AUC maximization is an effective approach to address the imbalanced data classification problem in federated learning. In the past few years, a couple of federated AUC maximization approaches have been developed based on the minimax optimization. However, directly solving a minimax optimization problem to maximize the AUC score cannot achieve satisfactory performance. To address this issue, we propose to maximize AUC via optimizing a federated multi-level compositional minimax problem. Specifically, we develop a novel federated multi-level compositional minimax algorithm with rigorous theoretical guarantees to solve this new learning paradigm in both algorithmic design and theoretical analysis. To the best of our knowledge, this is the first work studying the multi-level minimax optimization problem. Additionally, extensive empirical evaluations confirm the efficacy of our proposed approach.
 # cover:          /assets/images/covers/cover3.jpg
 authors:
-  - Xinwen Zhang
+  - <strong>Xinwen Zhang</strong>
   - Ali Payani
   - Myungjin Lee
   - Richard Souvenir
