@@ -18,6 +18,7 @@ authors:
   - Richard Souvenir
   - Hongchang Gao
 links:
+  Paper: https://proceedings.mlr.press/v235/zhang24aw.html
   # Code: https://github.com/luost26/academic-homepage
   # Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
