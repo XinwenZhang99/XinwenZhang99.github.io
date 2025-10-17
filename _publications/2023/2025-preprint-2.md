@@ -13,7 +13,7 @@ authors:
   - <strong> Xinwen Zhang</strong>
   - Hongchang Gao
 links:
-   Paper: https://arxiv.org/abs/2510.03866
+  Paper: https://arxiv.org/abs/2510.03866
   # Code: https://github.com
   # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
