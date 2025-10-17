@@ -15,11 +15,6 @@ navbar_title: Home
 
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
-{% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
     {% if count_news > 0 %}
         {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
     {% endif %}
