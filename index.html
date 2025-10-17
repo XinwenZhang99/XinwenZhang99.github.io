@@ -20,10 +20,11 @@ navbar_title: Home
     {% endif %}
 {% endif %}
 
-<div class="text-right mt-2 mb-4">
-    <a href="{{ '/publications/' | relative_url }}">
-        <i class="fas fa-arrow-right"></i> Show all publications
-    </a>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+<div class="text-right mt-3 mb-4">
+  <a href="{{ '/publications/' | relative_url }}">
+    <i class="fas fa-arrow-right"></i> Show all publications
+  </a>
 </div>
 
 {% if site.data.display.homepage.show_selected_publications %}
