@@ -90,3 +90,17 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.news-item-text {
+  font-size: 0.9rem;    
+  line-height: 1.25;    
+}
+
+.news-item-text a {
+  font-weight: normal;  
+}
+
+.news-indent {
+  margin-left: 1.2rem;  
+  margin-top: 0.1rem;  
+}
+
