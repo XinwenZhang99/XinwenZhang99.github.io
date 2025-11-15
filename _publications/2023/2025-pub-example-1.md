@@ -5,7 +5,7 @@ selected:       false
 pub:            "The IEEE International Conference on Data Mining (ICDM)"
 pub_date:       "2025"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
-abstract: >-
+abstract: |-
   Motivation: Sharpness-Aware Minimization (SAM) enhances generalization, yet prior studies rarely explore the minimax optimization perspective.
 
   Challenge: The loss landscape of minimax optimization is inherently more complex.
