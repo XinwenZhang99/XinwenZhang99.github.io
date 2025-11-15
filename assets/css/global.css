@@ -103,4 +103,5 @@ div.lazy {
   margin: 0;                     
   font-size: 0.8rem !important;  
   line-height: 1.2;
+  margin-left: 1rem;
 }
