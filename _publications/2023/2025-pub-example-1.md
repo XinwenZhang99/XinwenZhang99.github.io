@@ -8,7 +8,7 @@ pub_date:       "2025"
 abstract: >
   <ul>
     <li><strong>Motivation:</strong>  Sharpness-Aware Minimization (SAM) enhances generalization yet prior studies rarely explore the   <em>minimax optimization</em> perspective.</li>
-    <li><strong>Challenge:** The loss landscape of minimax optimization is inherently more complex.</li>
+    <li><strong>Challenge:</strong> The loss landscape of minimax optimization is inherently more complex.</li>
 
     <li><strong>Algorithm:</strong> We propose <em>VaSSO-SGDAM</em>, a <em>Variance-Suppressed Sharpness-Aware Optimization</em> algorithm for <em>Deep AUC Maximization</em>.</li>
 
