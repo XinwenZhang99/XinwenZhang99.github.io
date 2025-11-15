@@ -6,7 +6,18 @@ pub:            "The IEEE International Conference on Data Mining (ICDM)"
 pub_date:       "2025"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  Sharpness-aware minimization (SAM) is widely recognized for its ability to improve the generalization of deep neural networks by transforming the optimization problem into a minimax problem, aiming to minimize the maximum loss caused by adversarial parameter perturbations within a neighborhood. However, existing work almost exclusively focuses on the original minimization optimization, with very little attention paid to the minimax optimization. In this paper, we introduce a novel algorithm, VaSSO-SGDAM, by leveraging Variance-Suppressed Sharpness-aware Optimization (VaSSO) for deep AUC maximization. We provide a theoretical convergence analysis of this algorithm, marking it as the first work to achieve such significant theoretical outcomes for this kind of problem. Lastly, we implement our method for optimizing the AUC maximization problem, and the experimental findings validate the efficacy of our approach.
+  - **Motivation:**  
+  Sharpness-Aware Minimization (SAM) enhances generalization yet prior studies rarely explore the *minimax optimization* perspective.
+  **Challenge:** The loss landscape of minimax optimization is inherently more complex.
+
+- **Method:**  
+  We propose **VaSSO-SGDAM**, a **Variance-Suppressed Sharpness-Aware Optimization** algorithm for **Deep AUC Maximization**.
+
+- **Theory:**  
+  We establish the **first convergence guarantee** for sharpness-aware optimization in AUC maximization.
+
+- **Results:**  
+  Experiments on benchmark and medical datasets show that VaSSO-SGDAM consistently outperforms existing baselines, and eigenvalue spectral analysis reveals a smoother AUC loss landscape.
 
 # cover:          /assets/images/covers/cover2.jpg
 authors:
