@@ -99,8 +99,8 @@ div.lazy {
   font-weight: normal;  
 }
 
-.news-indent {
-  margin-left: 1.2rem;  
-  margin-top: 0.1rem;  
+.news-indent p {
+  margin: 0;                     
+  font-size: 0.8rem !important;  
+  line-height: 1.2;
 }
-
