@@ -18,7 +18,7 @@ abstract: |-
 
 - **Results:**  
   Experiments on benchmark and medical datasets show that VaSSO-SGDAM consistently outperforms existing baselines, and eigenvalue spectral analysis reveals a smoother AUC loss landscape.
----
+
 
 # cover:          /assets/images/covers/cover2.jpg
 authors:
