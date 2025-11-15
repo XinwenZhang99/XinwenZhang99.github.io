@@ -19,9 +19,11 @@
             <div class="media-body">
                 {% for item in year.items %}
                     <div class="my-1 d-flex">
-                      <div class="small">{{ item.content | markdownify }}</div>
-                      <div class="ml-auto mt-auto text-muted no-break">
-                        <i>{{ item.date | date: "%b" }}</i></div>
+                      <div class="news-item-text">
+                          <div>{{ item.title }}</div>
+                          <div class="news-indent">{{ item.content | markdownify }}</div>
+                      </div>
+                      <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b" }}</i></div>
                     </div>
                 {% endfor %}
             </div>
