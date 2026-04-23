@@ -47,20 +47,20 @@ education:
   date: Sep. 2017 - Jul. 2021
 
 awards:
+- name: Outstanding Graduate Research Assistant Award in CIS at Temple University.
+  date: 2026
 - name: Female Student Award in Data Science at ICDM, ICDM Travel Award.
   date: 2025
 - name: ICML Travel Award.
   date: 2024
 - name: KDD Student Traval Award, NuerIPS Scholar Award, WiML Travel Award.
   date: 2023
-# - name: A quick brown fox jumps over the lazy dog and runs away award
-#   date: 2021
 
 
 
 service:
   reviewer:
-    - conference: "ICLR, AISTATS"
+    - conference: "ICLR, AISTATS, ICML, KDD"
       year: 2026
     - conference: "ICLR, AISTATS, AAAI, ICML, KDD, NeurIPS"
       year: 2025
