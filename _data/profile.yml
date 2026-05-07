@@ -60,7 +60,7 @@ awards:
 
 service:
   reviewer:
-    - conference: "ICLR, AISTATS, ICML, KDD"
+    - conference: "ICLR, AISTATS, AAAI, ICML, KDD, NeurIPS"
       year: 2026
     - conference: "ICLR, AISTATS, AAAI, ICML, KDD, NeurIPS"
       year: 2025
