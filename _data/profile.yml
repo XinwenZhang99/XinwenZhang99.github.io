@@ -27,7 +27,7 @@ short_bio: >-
     <ul>
       <li>Stochastic optimization beyond minimization (e.g., minimax, compositional, and bilevel problems)</li>
       <li>Distributed optimization (federated and decentralized settings)</li>
-      <li>Efficient optimizers for large language models (LLMs)</li>
+      <li>Optimization for large language models (pretraining and post-training)</li>
     </ul>
 
 portrait_url: /assets/images/photos/IMG_6030.jpg
