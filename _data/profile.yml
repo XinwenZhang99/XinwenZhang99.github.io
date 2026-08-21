@@ -23,12 +23,7 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am a Ph.D. student in Computer & Information Science at <a href="https://www.temple.edu/" target="_blank">Temple University</a>, advised by <a href="https://hcgao.github.io/index.html" target="_blank">Dr. Hongchang Gao</a> and also working closely with <a href="https://cis.temple.edu/~souvenir/" target="_blank">Dr. Richard Souvenir</a>. 
-    My research focuses on designing large-scale optimization algorithms, including:</p>
-    <ul>
-      <li>Stochastic optimization beyond minimization (e.g., minimax, compositional, bilevel and multi-level problems)</li>
-      <li>Distributed optimization (federated and decentralized settings)</li>
-      <li>Optimization for large language models (pretraining and post-training)</li>
-    </ul>
+    My research focuses on designing large-scale optimization algorithms, including compositional optimization for AUC maximization, optimization beyond minimization, and optimization for large language models.</p>
 
 portrait_url: /assets/images/photos/IMG_6030.jpg
 portrait_caption: >-
