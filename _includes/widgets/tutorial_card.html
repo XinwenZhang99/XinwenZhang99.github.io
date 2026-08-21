@@ -1,0 +1,20 @@
+{% assign items_by_year = include.tutorials | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+<div class="my-3 bg-white shadow-sm rounded-xl">
+    <div class="d-flex align-items-center p-3 mb-0 border-bottom border-gray">
+          <h6 class="mb-0">{{ include.title | default: '<i class="fas fa-chalkboard-teacher"></i> Tutorial & Workshop' }}</h6>
+    </div>
+    <div class="px-3 pb-1">
+        {% for year in items_by_year %}
+        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
+            {% assign not_first = true %}
+            <div class="mr-3 text-muted my-1" style="min-width: 3.75em;">{{ year.name }}</div>
+            <div class="media-body">
+                {% for item in year.items %}
+                    {% include widgets/publication_item_compact.html item=item %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

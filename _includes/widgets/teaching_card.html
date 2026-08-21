@@ -1,0 +1,14 @@
+{% if site.data.profile.service.teaching %}
+<div class="card border-0 shadow-sm bg-white mt-4">
+  <div class="card-body p-4">
+    <h6><i class="fas fa-chalkboard-teacher"></i> Teaching</h6>
+    <ul class="list-unstyled ml-2 small mt-3 mb-0">
+      {% for t in site.data.profile.service.teaching %}
+      <li class="mb-1">
+        {{ t.course }}{% if t.term %} — {{ t.term }}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}

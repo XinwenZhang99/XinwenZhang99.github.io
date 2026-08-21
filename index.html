@@ -25,4 +25,11 @@ navbar_title: Home
     {% include widgets/publication_card.html publications=pubs %}
 {% endif %}
 
-{% include widgets/service_card.html %}
+{% assign tutorials = site.tutorials | sort: "date" | reverse %}
+{% if tutorials.size > 0 %}
+    {% include widgets/tutorial_card.html tutorials=tutorials %}
+{% endif %}
+
+{% include widgets/reviewer_card.html %}
+
+{% include widgets/teaching_card.html %}

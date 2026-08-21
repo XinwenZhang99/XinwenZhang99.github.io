@@ -4,7 +4,7 @@ date:           2025-04-01 00:00:00 +0800
 selected:       false
 pub:            "IEEE/ACM International Symposium on Quality of Service (IWQoS)"
 pub_date:       "2025"
-venue:          "In IEEE/ACM 33rd International Symposium on Quality of Service, 2025."
+venue:          "In IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS 2025)."
 authors:
   - Jiyao Liu
   - <strong>Xinwen Zhang</strong>
