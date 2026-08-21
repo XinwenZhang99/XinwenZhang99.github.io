@@ -26,8 +26,8 @@ short_bio: >-
     My research focuses on designing large-scale optimization algorithms, including:</p>
     <ul>
       <li>Compositional optimization for AUC maximization</li>
-      <li>Optimization beyond minimization</li>
-      <li>Optimization for large language models</li>
+      <li>Optimization beyond minimization (e.g., minimax, bilevel, multi-level, etc)</li>
+      <li>Optimization for large language models (pre-training and post-training)</li>
     </ul>
 
 portrait_url: /assets/images/photos/IMG_6030.jpg
