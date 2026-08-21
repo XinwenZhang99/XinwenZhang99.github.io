@@ -12,5 +12,5 @@ authors:
   - Jie Wu
   - Hongchang Gao
 links:
-  # Paper: https://arxiv.org
+  Paper: https://openreview.net/forum?id=PAtGX7I6xh
 ---

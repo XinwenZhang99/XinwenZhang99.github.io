@@ -10,5 +10,5 @@ authors:
   - Richard Souvenir
   - Hongchang Gao
 links:
-  # Paper: https://arxiv.org
+  Paper: https://openreview.net/forum?id=QIMOluC1AE
 ---
