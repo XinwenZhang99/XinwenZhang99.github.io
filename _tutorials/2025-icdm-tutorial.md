@@ -5,4 +5,6 @@ venue:          "In Proceedings of the 25th IEEE International Conference on Dat
 authors:
   - Hongchang Gao
   - <strong>Xinwen Zhang</strong>
+links:
+  Link: https://hcgao.github.io/tutorial_icdm2025.html
 ---

@@ -5,4 +5,6 @@ venue:          "In Proceedings of the 34th International Joint Conference on Ar
 authors:
   - Hongchang Gao
   - <strong>Xinwen Zhang</strong>
+links:
+  Link: https://hcgao.github.io/tutorial_ijcai2025.html
 ---
