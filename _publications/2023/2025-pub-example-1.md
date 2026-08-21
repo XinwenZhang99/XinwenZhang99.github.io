@@ -19,7 +19,7 @@ authors:
   - <strong> Xinwen Zhang</strong>
   - Hongchang Gao
 links:
-  # Paper: https://www.biorxiv.org
+  Paper: https://ieeexplore.ieee.org/abstract/document/11391959
   # Code: https://github.com
   # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
   Slides: "../../../assets/slides/icdm2025.pdf"

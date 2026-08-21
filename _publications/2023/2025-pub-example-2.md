@@ -16,6 +16,5 @@ authors:
   - <strong>Xinwen Zhang</strong>
   - Hongchang Gao
 links:
-  # Code: https://github.com/luost26/bubble-visual-hash
-  # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://openreview.net/forum?id=Ceb788Uigr
 ---
