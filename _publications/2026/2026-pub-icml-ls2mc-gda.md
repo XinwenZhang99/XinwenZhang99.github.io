@@ -1,6 +1,6 @@
 ---
 title:          "LS<sup>2</sup>MC-GDA: A Smoothed Algorithm for Federated Stochastic Multi-level Compositional Minimax Optimization"
-date:           2026-05-01 00:00:00 +0800
+date:           2026-05-02 00:00:00 +0800
 selected:       true
 pub:            "International Conference on Machine Learning (ICML)"
 pub_date:       "2026"
