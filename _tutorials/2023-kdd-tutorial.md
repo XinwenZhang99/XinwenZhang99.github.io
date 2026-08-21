@@ -5,4 +5,6 @@ venue:          "In Proceedings of the 27th ACM SIGKDD Conference on Knowledge D
 authors:
   - Hongchang Gao
   - <strong>Xinwen Zhang</strong>
+links:
+  Link: https://dl.acm.org/doi/10.1145/3580305.3599554
 ---
