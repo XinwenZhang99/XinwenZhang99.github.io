@@ -1,5 +1,5 @@
 ---
-title:          "Distributed Stochastic K-Level Optimization Over Networks"
+title:          "LS<sup>2</sup>MC-GDA: A Smoothed Algorithm for Federated Stochastic Multi-level Compositional Minimax Optimization"
 date:           2026-05-01 00:00:00 +0800
 selected:       true
 pub:            "International Conference on Machine Learning (ICML)"
@@ -7,10 +7,8 @@ pub_date:       "2026"
 venue:          "In Proceedings of the 43rd International Conference on Machine Learning, 2026."
 authors:
   - <strong>Xinwen Zhang</strong>
-  - Yihan Zhang
+  - Richard Souvenir
   - Hongchang Gao
-  - Heng Huang
 links:
   # Paper: https://arxiv.org
-  # Code: https://github.com
 ---
