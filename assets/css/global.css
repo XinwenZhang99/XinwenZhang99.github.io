@@ -113,3 +113,11 @@ div.lazy {
 .paper-link:hover {
   color: #123763;
 }
+
+.profile-links-dark a {
+  color: #1a4d8f;
+}
+
+.profile-links-dark a:hover {
+  color: #123763;
+}
