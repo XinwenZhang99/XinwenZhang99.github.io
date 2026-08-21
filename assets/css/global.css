@@ -100,8 +100,16 @@ div.lazy {
 }
 
 .news-indent p {
-  margin: 0;                     
-  font-size: 0.875rem !important;  
+  margin: 0;
+  font-size: 0.875rem !important;
   line-height: 1.2;
   margin-left: 1rem;
+}
+
+.paper-link {
+  color: #1a4d8f;
+}
+
+.paper-link:hover {
+  color: #123763;
 }

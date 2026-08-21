@@ -1,6 +1,6 @@
 {% assign item = include.item %}
 <div class="my-2">
-    <div>{{ item.title }}</div>
+    <div>{{ item.title }}{% if item.links.Paper %} <a href="{{ item.links.Paper }}" target="_blank" class="paper-link">[Paper]</a>{% endif %}</div>
     <div class="small text-muted">{% include widgets/author_list.html authors=item.authors %}</div>
     <div class="small text-muted"><em>{{ item.venue }}</em></div>
 </div>
