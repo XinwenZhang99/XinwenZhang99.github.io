@@ -4,13 +4,6 @@
 <div class="my-3 bg-white shadow-sm rounded-xl">
     <div class="d-flex align-items-center p-3 mb-0 border-bottom border-gray">
           <h6 class="mb-0"><i class="fas fa-rss"></i> News</h6>
-          {% if include.right_link_href %}
-            <div class="ml-auto small">
-            <a href="{{ include.right_link_href | relative_url }}" style="font-size: 0.95rem; font-weight: 600;">
-            {{ include.right_link_text | default: 'All publications »' }}
-              </a>
-            </div>
-          {% endif %}
     </div>
     <div class="px-3 pb-1">
         {% for year in news_by_year %}
@@ -22,7 +15,6 @@
                     <div class="my-1 d-flex">
                       <div class="news-item-text">
                           <div>{{ item.title }}</div>
-                          <div class="news-indent">{{ item.content | markdownify }}</div>
                       </div>
                       <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b" }}</i></div>
                     </div>
