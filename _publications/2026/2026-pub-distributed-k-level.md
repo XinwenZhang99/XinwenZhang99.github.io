@@ -11,6 +11,6 @@ authors:
   - Hongchang Gao
   - Heng Huang
 links:
-  # Paper: https://arxiv.org
+  Paper: https://openreview.net/forum?id=9akdpFgIDt
   # Code: https://github.com
 ---
