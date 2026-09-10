@@ -11,9 +11,9 @@
           {% for item in site.data.profile.service.reviewer %}
           <li class="mb-1">
             {% if item.conference %}
-              {{ item.conference }}{% if item.year %} ({{ item.year }}){% endif %}
+              <strong>Conference:</strong> {{ item.conference }}{% if item.year %} ({{ item.year }}){% endif %}
             {% elsif item.journal %}
-              {{ item.journal }}{% if item.year %} ({{ item.year }}){% endif %}
+              <strong>Journal:</strong> {{ item.journal }}{% if item.year %} ({{ item.year }}){% endif %}
             {% endif %}
           </li>
           {% endfor %}

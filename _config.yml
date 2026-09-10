@@ -14,11 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://xinwenzhang99.github.io"
+
+title: "Xinwen Zhang"
+description: >-
+  Xinwen (Ellen) Zhang is a Ph.D. student in Computer & Information Science at Temple University,
+  researching large-scale optimization algorithms for machine learning, including compositional
+  optimization for AUC maximization, optimization beyond minimization, and optimization for large
+  language models.
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
