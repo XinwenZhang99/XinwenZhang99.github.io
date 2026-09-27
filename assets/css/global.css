@@ -99,6 +99,28 @@ div.lazy {
   font-weight: normal;  
 }
 
+.news-scroll {
+  position: relative;  /* item offsetTop is measured from this box */
+  max-height: 14rem;  /* fallback without JS; the news_card script fits it to 7 items */
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c8c8c8 transparent;
+  transition: box-shadow 0.2s;
+}
+
+.news-scroll.has-more {
+  box-shadow: inset 0 -12px 10px -10px rgba(0, 0, 0, 0.18);
+}
+
+.news-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+  border-radius: 3px;
+}
+
 .news-indent p {
   margin: 0;
   font-size: 0.875rem !important;

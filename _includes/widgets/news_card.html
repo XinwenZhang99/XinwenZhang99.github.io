@@ -1,12 +1,44 @@
 {% assign news_items = site.news | sort: "date" | reverse %}
+{% assign visible_news = include.limit | default: 7 %}
 
 <div class="my-3 bg-white shadow-sm rounded-xl">
     <div class="d-flex align-items-center p-3 mb-0 border-bottom border-gray">
           <h6 class="mb-0"><i class="fas fa-rss"></i> News</h6>
     </div>
-    <div class="px-3 pb-1" style="font-size: 0.9375rem;">
+    <div id="news-scroll" class="news-scroll px-3 pb-1" data-visible="{{ visible_news }}" style="font-size: 0.9375rem;">
         {% for item in news_items %}
             <div class="my-2"><span class="text-muted">{{ item.date | date: "%m/%Y" }}:</span> {{ item.title }}</div>
         {% endfor %}
     </div>
 </div>
+
+<script>
+    // Size the news box so exactly `data-visible` items show; older items scroll.
+    (function () {
+        var box = document.getElementById('news-scroll');
+        if (!box) return;
+        var visible = parseInt(box.dataset.visible, 10);
+        var items = box.children;
+
+        function fit() {
+            if (items.length <= visible) {
+                box.style.maxHeight = 'none';
+            } else {
+                var last = items[visible - 1];
+                var bottom = last.offsetTop + last.offsetHeight;
+                box.style.maxHeight = (bottom + parseFloat(getComputedStyle(last).marginBottom)) + 'px';
+            }
+            updateHint();
+        }
+
+        function updateHint() {
+            var more = box.scrollTop + box.clientHeight < box.scrollHeight - 2;
+            box.classList.toggle('has-more', more);
+        }
+
+        box.addEventListener('scroll', updateHint);
+        window.addEventListener('resize', fit);
+        window.addEventListener('load', fit);
+        fit();
+    })();
+</script>
