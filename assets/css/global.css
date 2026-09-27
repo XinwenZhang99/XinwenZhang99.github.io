@@ -103,8 +103,6 @@ div.lazy {
   position: relative;  /* item offsetTop is measured from this box */
   max-height: 14rem;  /* fallback without JS; the news_card script fits it to 7 items */
   overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #c8c8c8 transparent;
   transition: box-shadow 0.2s;
 }
 
@@ -112,13 +110,31 @@ div.lazy {
   box-shadow: inset 0 -12px 10px -10px rgba(0, 0, 0, 0.18);
 }
 
+/* Custom WebKit scrollbars stay visible, unlike macOS overlay scrollbars.
+   Chrome ignores these if scrollbar-width/color are set, so those are Firefox-only. */
 .news-scroll::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
+}
+
+.news-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
 }
 
 .news-scroll::-webkit-scrollbar-thumb {
-  background: #c8c8c8;
-  border-radius: 3px;
+  background: #b5b5b5;
+  border-radius: 4px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+@supports (-moz-appearance: none) {
+  .news-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #b5b5b5 #f1f1f1;
+  }
 }
 
 .news-indent p {
