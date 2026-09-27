@@ -61,6 +61,7 @@ awards:
 service:
   reviewer:
     - conference: "AAAI, ICML, NeurIPS, KDD, ICLR, AISTATS, CVPR"
+      year: "2024–2027"
     - journal: "ACM Transactions on Computing for Healthcare, Journal of Combinatorial Optimization, Journal of Optimization Theory and Applications, Neural Networks, Transactions on Machine Learning Research."
   teaching:
     - course: "CIS3715 Principles of Data Science"
