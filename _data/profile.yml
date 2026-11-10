@@ -24,9 +24,9 @@ cv_link: "/assets/xinwen_cv.pdf"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Postdoctoral Associate at the <a href="https://www.umiacs.umd.edu/" target="_blank">University of Maryland Institute for Advanced Computer Studies (UMIACS)</a>, working with <a href="https://www.cs.umd.edu/~heng/" target="_blank">Dr. Heng Huang</a>.
-    I received my Ph.D. in Computer & Information Science from <a href="https://www.temple.edu/" target="_blank">Temple University</a> in 2026, advised by <a href="https://hcgao.github.io/index.html" target="_blank">Dr. Hongchang Gao</a> and also working closely with <a href="https://cis.temple.edu/~souvenir/" target="_blank">Dr. Richard Souvenir</a>.
-    My research focuses on efficient algorithms for large-scale machine learning, including:</p>
+    Welcome to my website. I am a Postdoctoral Associate at the <a href="https://www.umiacs.umd.edu/" target="_blank">University of Maryland Institute for Advanced Computer Studies (UMIACS)</a>, working with <a href="https://www.cs.umd.edu/~heng/" target="_blank">Dr. Heng Huang</a>.
+    I received my Ph.D. in Computer & Information Science from <a href="https://www.temple.edu/" target="_blank">Temple University</a> in 2026, advised by <a href="https://hcgao.github.io/index.html" target="_blank">Dr. Hongchang Gao</a> and also working closely with <a href="https://cis.temple.edu/~souvenir/" target="_blank">Dr. Richard Souvenir</a>.</p>
+    <p>My research focuses on efficient algorithms for large-scale machine learning, including:</p>
     <ul>
       <li>Algorithms for compositional AUC maximization</li>
       <li>Learning beyond minimization (e.g., minimax, bilevel, etc.)</li>
