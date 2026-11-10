@@ -18,10 +18,9 @@ url: "https://xinwen-zhang.com"
 
 title: "Xinwen Zhang"
 description: >-
-  Xinwen (Ellen) Zhang is a Ph.D. student in Computer & Information Science at Temple University,
-  researching large-scale optimization algorithms for machine learning, including compositional
-  optimization for AUC maximization, optimization beyond minimization, and optimization for large
-  language models.
+  Xinwen (Ellen) Zhang is a Postdoctoral Associate at UMIACS, University of Maryland,
+  researching efficient algorithms for large-scale machine learning, including compositional AUC
+  maximization, learning beyond minimization, and efficient training for large language models.
 
 # Build settings
 markdown: kramdown

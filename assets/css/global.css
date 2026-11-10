@@ -37,6 +37,17 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+.profile-emails,
+.profile-emails a,
+.profile-links-dark .profile-emails a {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+.profile-links-dark .profile-emails a:hover {
+    color: #343a40;
+}
+
 .text-profile-bio {
     /* font-family: "Raleway"; */
     font-weight: 400;
